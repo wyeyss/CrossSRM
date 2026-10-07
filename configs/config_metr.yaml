@@ -1,0 +1,23 @@
+data:
+  data_keys:
+  - metr-la
+  - pems-bay
+  - shenzhen
+  - chengdu_m
+  metr-la:
+    dataset_path: data/metr-la/dataset_expand.npy
+    adjacency_matrix_path: data/metr-la/matrix.npy
+  pems-bay:
+    dataset_path: data/pems-bay/dataset_expand.npy
+    adjacency_matrix_path: data/pems-bay/matrix.npy
+  shenzhen:
+    dataset_path: data/shenzhen/dataset_expand.npy
+    adjacency_matrix_path: data/shenzhen/matrix.npy
+  chengdu_m:
+    dataset_path: data/chengdu_m/dataset_expand.npy
+    adjacency_matrix_path: data/chengdu_m/matrix.npy
+task:
+  maml:
+    his_num: 288
+    pred_num: 12
+    batch_size: 16
